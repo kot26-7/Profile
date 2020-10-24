@@ -3,13 +3,16 @@
     <b-button-toolbar>
       <b-button-group class="mr-1">
         <b-button to="/" title="Home">
-          <b-icon icon="door-closed" aria-hidden="true"></b-icon>
+          <b-icon icon="house-door" aria-hidden="true"></b-icon>
         </b-button>
         <b-button to="/profile" title="Profile">
           <b-icon icon="file-person" aria-hidden="true"></b-icon>
         </b-button>
         <b-button to="/skills" title="Skills">
           <b-icon icon="pencil" aria-hidden="true"></b-icon>
+        </b-button>
+        <b-button to="/contact" title="Contact">
+          <b-icon icon="mailbox" aria-hidden="true"></b-icon>
         </b-button>
       </b-button-group>
     </b-button-toolbar>
