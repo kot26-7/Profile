@@ -1,11 +1,24 @@
 <template>
-  <div id="app">
-    <div id="nav">
-      <router-link to="/">Home</router-link> |
-      <router-link to="/about">About</router-link>
+  <b-container id="app">
+    <b-button-toolbar>
+      <b-button-group class="mr-1">
+        <b-button to="/" title="Home">
+          <b-icon icon="door-closed" aria-hidden="true"></b-icon>
+        </b-button>
+        <b-button to="/profile" title="Profile">
+          <b-icon icon="file-person" aria-hidden="true"></b-icon>
+        </b-button>
+        <b-button to="/skills" title="Skills">
+          <b-icon icon="pencil" aria-hidden="true"></b-icon>
+        </b-button>
+      </b-button-group>
+    </b-button-toolbar>
+    <div id="view-zone">
+      <transition>
+        <router-view/>
+      </transition>
     </div>
-    <router-view/>
-  </div>
+  </b-container>
 </template>
 
 <style>
@@ -17,16 +30,38 @@
   color: #2c3e50;
 }
 
-#nav {
-  padding: 30px;
+.btn-group {
+  width: 100%;
+  margin-top: 20px;
 }
 
-#nav a {
-  font-weight: bold;
-  color: #2c3e50;
+a.router-link-exact-active {
+  color: yellow;
 }
 
-#nav a.router-link-exact-active {
-  color: #42b983;
+#view-zone {
+  margin-top: 50px
+}
+
+.v-enter {
+  transform: translate(0, -50px);
+  opacity: 0;
+}
+.v-enter-to {
+  opacity: 1;
+}
+.v-enter-active {
+  transition: all 2s 1s ease;
+}
+.v-leave {
+  transform: translate(0, 0);
+  opacity: 1;
+}
+.v-leave-to {
+  transform: translate(0, 100px);
+  opacity: 0;
+}
+.v-leave-active {
+  transition: all 1s 0s ease;
 }
 </style>
