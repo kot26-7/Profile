@@ -1,5 +1,6 @@
 <template>
   <div class="home">
+    <vue-headful title="Home - Myprofile"/>
     <img alt="Vue logo" src="../assets/logo.png">
     <HelloWorld msg="Thank you for coming."/>
   </div>
