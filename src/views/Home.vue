@@ -2,18 +2,6 @@
   <div class="home">
     <vue-headful title="Home - Myprofile"/>
     <img alt="Vue logo" src="../assets/logo.png">
-    <HelloWorld msg="Thank you for coming."/>
+    <h1 class="main-title">Thank you for coming.</h1>
   </div>
 </template>
-
-<script>
-// @ is an alias to /src
-import HelloWorld from '@/components/HelloWorld.vue'
-
-export default {
-  name: 'Home',
-  components: {
-    HelloWorld
-  }
-}
-</script>

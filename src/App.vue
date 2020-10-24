@@ -22,6 +22,15 @@
 </template>
 
 <style>
+body {
+  height: 100vh;
+  background-image: -webkit-linear-gradient(top, #EBEBEB 0%, #DCDDDF 48%, #C4C5C7 99%);
+  background-image: linear-gradient(-180deg, #EBEBEB 0%, #DCDDDF 48%, #C4C5C7 99%);
+}
+
+h1 {
+  font-family: 'Economica', sans-serif;
+}
 #app {
   font-family: Avenir, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
@@ -33,6 +42,10 @@
 .btn-group {
   width: 100%;
   margin-top: 20px;
+}
+
+.main-title {
+  font-size: 3rem;
 }
 
 a.router-link-exact-active {
