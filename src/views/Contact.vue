@@ -9,7 +9,7 @@
       </tr>
       <tr>
         <th>電話番号(TEL)</th>
-        <td>090-7784-8575</td>
+        <td>*************</td>
       </tr>
       <tr>
         <th>Facebook</th>
