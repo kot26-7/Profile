@@ -1,21 +1,6 @@
 <template>
   <b-container id="app">
-    <b-button-toolbar>
-      <b-button-group class="mr-1">
-        <b-button to="/" title="Home">
-          <b-icon icon="house-door" aria-hidden="true"></b-icon>
-        </b-button>
-        <b-button to="/profile" title="Profile">
-          <b-icon icon="file-person" aria-hidden="true"></b-icon>
-        </b-button>
-        <b-button to="/skills" title="Skills">
-          <b-icon icon="pencil" aria-hidden="true"></b-icon>
-        </b-button>
-        <b-button to="/contact" title="Contact">
-          <b-icon icon="mailbox" aria-hidden="true"></b-icon>
-        </b-button>
-      </b-button-group>
-    </b-button-toolbar>
+    <HeaderLinks/>
     <div id="view-zone">
       <transition>
         <router-view/>
@@ -24,13 +9,27 @@
   </b-container>
 </template>
 
+<script>
+import HeaderLinks from '@/components/HeaderLinks'
+
+export default {
+  name: 'App',
+  components: {
+    HeaderLinks
+  },
+  data () {
+    return {
+    }
+  }
+}
+</script>
+
 <style>
 body {
   height: 100vh;
   background-image: -webkit-linear-gradient(top, #EBEBEB 0%, #DCDDDF 48%, #C4C5C7 99%);
   background-image: linear-gradient(-180deg, #EBEBEB 0%, #DCDDDF 48%, #C4C5C7 99%);
 }
-
 h1 {
   font-family: 'Economica', sans-serif;
 }
@@ -41,24 +40,12 @@ h1 {
   text-align: center;
   color: #2c3e50;
 }
-
-.btn-group {
-  width: 100%;
-  margin-top: 20px;
-}
-
 .main-title {
   font-size: 3rem;
 }
-
-a.router-link-exact-active {
-  color: yellow;
-}
-
 #view-zone {
   margin-top: 50px
 }
-
 .v-enter {
   transform: translate(0, -50px);
   opacity: 0;

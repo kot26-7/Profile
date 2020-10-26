@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div id="contact-field">
     <b-form @submit="onSubmit" v-if="show">
       <b-form-group id="input-group-1" label="メールアドレス" label-for="f-email">
         <b-form-input
@@ -72,3 +72,9 @@ export default {
   }
 }
 </script>
+
+<style scoped>
+#contact-field {
+  margin-top: 30px;
+}
+</style>

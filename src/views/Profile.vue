@@ -3,7 +3,7 @@
     <vue-headful title="Profile - Myprofile"/>
     <h1 class="main-title">Profile</h1>
     <div id="profile-field">
-      <h6>現在ポートフォリオを制作しながら、就職活動をしております。</h6>
+      <h6>現在ポートフォリオを制作しながら、未経験での転職活動を続けております。</h6>
       <h6>2020年2月から6ヶ月間ポテパンキャンプでの学習を開始。</h6>
       <b-col class="profile-content" sm="8" md="8">
         <b-row class="pc-row">
@@ -32,20 +32,20 @@
 </template>
 
 <style scoped>
-  #profile-field {
-    margin-top: 40px;
-    width: 100%;
-  }
-  .profile-content {
-    margin: 20px auto;
-  }
-  .pc-prop {
-    font-weight: bold;
-  }
-  .pc-row {
-    margin-bottom: 10px;
-  }
-  .pc-title, .pc-prop {
-    text-align: left;
-  }
+#profile-field {
+  margin-top: 40px;
+  width: 100%;
+}
+.profile-content {
+  margin: 20px auto;
+}
+.pc-prop {
+  font-weight: bold;
+}
+.pc-row {
+  margin-bottom: 10px;
+}
+.pc-title, .pc-prop {
+  text-align: left;
+}
 </style>

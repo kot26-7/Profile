@@ -8,7 +8,7 @@
 </template>
 
 <style scoped>
-  .by-name {
-    margin-top: 30px;
-  }
+.by-name {
+  margin-top: 30px;
+}
 </style>
