@@ -5,4 +5,4 @@ WORKDIR /myapp
 COPY . /myapp
 
 RUN apk update && \
-    npm install -g npm @vue/cli
+    npm install -g npm @vue/cli firebase-tools

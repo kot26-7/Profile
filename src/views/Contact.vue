@@ -2,26 +2,24 @@
   <div class="contact">
     <vue-headful title="Contact - Myprofile"/>
     <h1 class="main-title">Contact</h1>
-    <table id="contact-field">
-      <tr>
-        <th>Email</th>
-        <td>taro726896oka@gmail.com</td>
-      </tr>
-      <tr>
-        <th>電話番号(TEL)</th>
-        <td>*************</td>
-      </tr>
-      <tr>
-        <th>Facebook</th>
-        <td>*************</td>
-      </tr>
-      <tr>
-        <th>Twitter</th>
-        <td>*************</td>
-      </tr>
-    </table>
+    <ContactForm/>
   </div>
 </template>
+
+<script>
+import ContactForm from '@/components/ContactForm'
+
+export default {
+  name: 'App',
+  components: {
+    ContactForm
+  },
+  data () {
+    return {
+    }
+  }
+}
+</script>
 
 <style scoped>
   #contact-field {
