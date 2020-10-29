@@ -1,24 +1,9 @@
-# myapp
+# Profile
+私、kot26-7についてのSPAになります。
 
-## Project setup
-```
-npm install
-```
+## :globe_with_meridians: APP URL
+### **https://kot-profile-267.web.app/**
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
+## :book: 実装している機能
 
-### Compiles and minifies for production
-```
-npm run build
-```
-
-### Lints and fixes files
-```
-npm run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+- Firebase のfirebaseを使用してお問い合わせフォームを作成しています。
