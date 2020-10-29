@@ -26,6 +26,12 @@
             <a href="https://qiita.com/kot26-7">kot26-7</a>
           </b-col>
         </b-row>
+        <b-row class="pc-row">
+          <b-col class="pc-title" md="5" offset-md="1" lg="4" offset-lg="2">Facebook</b-col>
+          <b-col class="pc-prop" cols="10" md="5">
+            <a href="https://www.facebook.com/profile.php?id=100010902787127">Kotaro Okaue</a>
+          </b-col>
+        </b-row>
       </b-col>
     </div>
   </b-container>

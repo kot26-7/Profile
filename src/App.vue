@@ -25,8 +25,12 @@ export default {
 </script>
 
 <style>
+html , body {
+  min-height: 100%;
+  height: auto !important;
+  height: 100%;
+}
 body {
-  height: 100vh;
   background-image: -webkit-linear-gradient(top, #EBEBEB 0%, #DCDDDF 48%, #C4C5C7 99%);
   background-image: linear-gradient(-180deg, #EBEBEB 0%, #DCDDDF 48%, #C4C5C7 99%);
 }

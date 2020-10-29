@@ -4,16 +4,20 @@
     <h1 class="main-title">My skills</h1>
     <h3 class="sub-title"><span>Skills</span></h3>
     <LanguageList/>
+    <h3 class="sub-title"><span>Portfolios</span></h3>
+    <PortfolioList/>
   </b-container>
 </template>
 
 <script>
 // @ is an alias to /src
 import LanguageList from '@/components/LanguageList.vue'
+import PortfolioList from '@/components/PortfolioList.vue'
 export default {
   name: 'Skills',
   components: {
-    LanguageList
+    LanguageList,
+    PortfolioList
   }
 }
 </script>
