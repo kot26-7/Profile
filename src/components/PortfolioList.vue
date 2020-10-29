@@ -24,7 +24,7 @@
       </b-col>
     </div>
     <div class="portapp-form">
-      <h2>2. kot-profile-267</h2>
+      <h2>3. kot-profile-267</h2>
       <p class="mb-0">AppURL: <a href="https://kot-profile-267.web.app/">Profile</a></p>
       <p class="mb-0">Github: <a href="https://github.com/kot26-7/Profile">Profile</a></p>
       <p>作成期間: 約1週間</p>
