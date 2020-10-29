@@ -30,8 +30,8 @@
       <p>作成期間: 約1週間</p>
       <b-col lg="6" class="desc">
         <div>説明</div>
-        <p>自己PR専用のSPA</p>
-        <p>rails ではなく Vue.js で構成されています。</p>
+        <p>自己紹介専用のSPA</p>
+        <p>Vue.js で構成されています。</p>
         <p>お問い合わせはコンタクトページよりお願いいたします。</p>
       </b-col>
     </div>
