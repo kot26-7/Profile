@@ -2,7 +2,7 @@
   <div>
     <div class="portapp-form">
       <h2>1. Freedger</h2>
-      <p class="mb-0">AppURL: <a href="https://freedger-20201015051041.herokuapp.com/">Freedger</a></p>
+      <p class="mb-0">AppURL: <a href="https://freedger-kot26.herokuapp.com/">Freedger</a></p>
       <p class="mb-0">Github: <a href="https://github.com/kot26-7/Freedger">Freedger</a></p>
       <p>作成期間: 約1ヶ月</p>
       <b-col lg="6" class="desc">
@@ -14,7 +14,7 @@
     </div>
     <div class="portapp-form">
       <h2>2. Tipsgether</h2>
-      <p class="mb-0">AppURL: <a href="https://tpsgthr-20201028125036.herokuapp.com/">Tipsgether</a></p>
+      <p class="mb-0">AppURL: <a href="https://tpsgthr-kot26.herokuapp.com/">Tipsgether</a></p>
       <p class="mb-0">Github: <a href="https://github.com/kot26-7/TipsGether">Tipsgether</a></p>
       <p>作成期間: 約3週間</p>
       <b-col lg="6" class="desc">
